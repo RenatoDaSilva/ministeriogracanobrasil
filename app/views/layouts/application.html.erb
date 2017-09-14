@@ -9,12 +9,13 @@
   </head>
 <body>
 
-<div class="container">
-  <img class="img-responsive"
-       src="https://s19.postimg.org/d2de6g34j/Faixa2.png" alt="BANNER" align="center">
-</div>
 <header class="navbar navbar-inverse">
-  <div class="container">
+
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img alt="Icone" src="https://s19.postimg.org/gpt0julw3/icone.png">
+        </a>
+
     <nav>
       <ul class="nav navbar-nav navbar-left">
         <li><%= link_to "Notícias", '#' %></li>
@@ -42,7 +43,7 @@
     </nav>
   </div>
 </header>
-<div class="container">
+<div class="container-fluid">
   <%= yield %>
 </div>
 </body>
