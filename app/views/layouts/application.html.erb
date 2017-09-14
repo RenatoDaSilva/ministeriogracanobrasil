@@ -2,19 +2,19 @@
 <html>
 <head>
   <title><%= yield(:title) %> | Ministério da Graça no Brasil</title>
-    <%= csrf_meta_tags %>
-  <%= stylesheet_link_tag    'application', media: 'all',
-                               'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag 'application', media: 'all',
+                          'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
 <body>
 
-<header class="navbar navbar-inverse">
+<header class="navbar navbar-inverse navbar-fixed-top">
 
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img alt="Icone" src="https://s19.postimg.org/gpt0julw3/icone.png">
-        </a>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img alt="Icone" src="https://s19.postimg.org/gpt0julw3/icone.png">
+    </a>
 
     <nav>
       <ul class="nav navbar-nav navbar-left">
