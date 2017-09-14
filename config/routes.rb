@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  get 'static_pages/home'
-  get 'static_pages/help'
-  get  'static_pages/about'
   root 'static_pages#home'
+  get  '/noticias', to: 'static_pages#noticias'
+  get  '/biblioteca', to: 'static_pages#biblioteca'
+  get  '/contatos', to: 'static_pages#contatos'
+  get  '/eventos', to: 'static_pages#eventos'
 end
