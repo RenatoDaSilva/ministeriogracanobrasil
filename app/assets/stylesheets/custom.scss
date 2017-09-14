@@ -61,3 +61,17 @@ p {
     border-bottom: 1px solid $gray-lighter;
   }
 }
+
+.wrap {
+  position:fixed;
+  left:0;
+  width:100%;
+  top:0;
+  height:100%;
+}
+
+.iframe {
+  display: block;
+  width:100%;
+  height:100%;
+}
