@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get  '/biblioteca', to: 'static_pages#biblioteca'
   get  '/contatos', to: 'static_pages#contatos'
   get  '/eventos', to: 'static_pages#eventos'
+  get  '/ministerio', to: 'static_pages#ministerio'
 end
