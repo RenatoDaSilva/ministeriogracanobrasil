@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get  '/calendario', to: 'static_pages#calendario'
   get  '/contatos', to: 'static_pages#contatos'
   get  '/eventos', to: 'static_pages#eventos'
+  get  '/araraquara', to: 'static_pages#araraquara'
 end
