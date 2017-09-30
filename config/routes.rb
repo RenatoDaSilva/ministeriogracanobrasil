@@ -8,4 +8,8 @@ Rails.application.routes.draw do
   get  '/contatos', to: 'static_pages#contatos'
   get  '/eventos', to: 'static_pages#eventos'
   get  '/araraquara', to: 'static_pages#araraquara'
+
+  get  '/signup',  to: 'users#new'
+
+  resources :users
 end
