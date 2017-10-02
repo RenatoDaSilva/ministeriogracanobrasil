@@ -1,10 +1,13 @@
-<h1>Sample App</h1>
+<h1>Ativação de conta</h1>
 
-<p>Hi <%= @user.name %>,</p>
+<p>Olá,</p>
 
 <p>
-  Welcome to the Sample App! Click on the link below to activate your account:
+  O <%= @user.name %> solicitou a entrada dele como gestor do portal Ministério Graça no Brasil.
+  Para confirmar seu acesso, por gentileza confirme clicando no link abaixo.
+
+  Caso o <%= @user.name %> não deva entrar como gestor do portal, simplesmente ignore esta mensagem.
 </p>
 
-<%= link_to "Activate", edit_account_activation_url(@user.activation_token,
+<%= link_to 'Ativar', edit_account_activation_url(@user.activation_token,
                                                     email: @user.email) %>
