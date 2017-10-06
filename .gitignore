@@ -17,7 +17,8 @@
 !/log/.keep
 !/tmp/.keep
 
-/.idea/*
+.idea/*
+.idea/workspace.xml
 /node_modules
 /yarn-error.log
 
