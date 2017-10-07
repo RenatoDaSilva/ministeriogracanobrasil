@@ -15,7 +15,7 @@ Rails.application.routes.draw do
   get '/eventos', to: 'static_pages#eventos'
   get '/araraquara', to: 'static_pages#araraquara'
 
-  get '/signup', to: 'users#new'
+  get '/inscrever', to: 'users#new'
   get '/login', to: 'sessions#new'
   post '/login', to: 'sessions#create'
   delete '/logout', to: 'sessions#destroy'
