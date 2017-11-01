@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: ministeriogracanobrasil
+  api_key: '972594461797611'
+  api_secret: 245kLfUYu5e6IFJc_kYE182FiBI
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: ministeriogracanobrasil
+  api_key: '972594461797611'
+  api_secret: 245kLfUYu5e6IFJc_kYE182FiBI
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: ministeriogracanobrasil
+  api_key: '972594461797611'
+  api_secret: 245kLfUYu5e6IFJc_kYE182FiBI
+  enhance_image_tag: true
+  static_image_support: false
